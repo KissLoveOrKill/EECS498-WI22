@@ -62,7 +62,7 @@ The default setup script tries the PyTorch CUDA 12.8 wheel index; `-Cpu` uses th
 
 Datasets and model checkpoints are intentionally excluded from Git. CIFAR-10, MNIST, and Pascal VOC can be downloaded by the corresponding assignment helpers. Other exercises may require their own datasets or pretrained weights; check the notebook and helper documentation before running them.
 
-`A4/mAP` is an upstream Git submodule used by the object-detection evaluation helper. Clone this repository with `git clone --recurse-submodules <repository-url>`, or run `git submodule update --init --recursive` after a regular clone. Local evaluator inputs and results are not published.
+`A4/mAP` is an upstream Git submodule used by the object-detection evaluation helper. Clone this repository with `git clone --recurse-submodules https://github.com/KissLoveOrKill/EECS498-WI22.git`, or run `git submodule update --init --recursive` after a regular clone. Local evaluator inputs and results are not published.
 
 The rebuilt COCO captioning file used locally for A5 is not included. The original course download is unavailable, and this repository currently does not include the dataset-building script. [A5/DATASETS.md](A5/DATASETS.md) records the local dataset's source and preprocessing details. The arithmetic dataset `A5/two_digit_op.json` is included.
 
